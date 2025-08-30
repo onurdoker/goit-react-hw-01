@@ -1,0 +1,28 @@
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.head {
+    color: white;
+    background-color: black;
+}
+
+.body {
+    color: black;
+    border: 1px solid black;
+}
+
+.head th,
+.body td {
+    border: 1px solid black;
+}
+
+.name {
+    text-transform: capitalize;
+}
+
+.body tr:nth-child(odd) {
+    background-color: white
+}
