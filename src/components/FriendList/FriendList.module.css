@@ -1,0 +1,38 @@
+.friendList {
+    width: 400px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 5px;
+}
+
+.image {
+    width: 75px;
+    height: 75px;
+    margin: 10px auto 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.item {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.name {
+    color: black;
+}
